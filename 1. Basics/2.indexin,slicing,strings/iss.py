@@ -7,8 +7,9 @@ print(mystring[::2]) # ACEGI: this mean step size
 print(mystring[2:5:2]) # CE: start from 2, don't get to 5, use step size 2
 print(mystring[::-1])# This reverse a String
 
+#concantination
 na = "Tosin"
 delna = na[1:]
 print(delna)
-sln = "f" + delna # concant +
+sln = "f" + delna # concant "+"
 print(sln)
