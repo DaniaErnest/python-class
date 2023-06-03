@@ -1,3 +1,4 @@
+#indexing and Slicing with String
 mystring = "ABCDEFGHIJ"
 print(mystring[2])
 print(mystring[2:]) #start from 2
