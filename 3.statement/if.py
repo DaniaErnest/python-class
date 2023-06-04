@@ -28,3 +28,12 @@ elif loc == 'Bank':
     print('Welcome to the bank!')
 else:
     print('Where are you?')
+
+car = 'Black'
+
+if car == 'Red':
+    print('The Car is red')
+elif car == 'Black':
+    print("You're Correct")
+else:
+    print('Guess the color')

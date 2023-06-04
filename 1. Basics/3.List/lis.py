@@ -67,7 +67,7 @@ list1.pop(0)
 # Show
 print('pop[o]: ', list1)
 [2, 3, 'append me!']
-# Assign the popped element, remember default popped index is -1
+# Assign the popped element, remember default popped index is -1(i.e from back)
 popped_item = list1.pop()
 print(popped_item) # 'append me!'
 

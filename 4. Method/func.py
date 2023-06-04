@@ -45,13 +45,14 @@ def check_even_list(num_list):
     for number in num_list:
         # Once we get a "hit" on an even number, we return True
         if number % 2 == 0:
+            # return number     # We can return the umber that gives the true
             return True
         # Otherwise we don't do anything
         else:
             pass
 
 che = check_even_list([1,2,3])
-print(che)
+print('truth :',che)
 
 # We need to initiate a return False AFTER running through the entire loop**
 
@@ -140,3 +141,10 @@ from random import shuffle
 # Note shuffle is in-place
 shuffle(example)
 print(example)
+
+def shuffle_list(mylist):
+    shuffle(mylist)
+    return mylist
+
+result = shuffle_list(example)
+print(result)

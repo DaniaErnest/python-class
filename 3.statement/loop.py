@@ -36,9 +36,11 @@ for num in list1:
 list_sum = 0 
 
 for num in list1:
-    list_sum = list_sum + num
+    list_sum += num
+    #still the same like this
+    # list_sum - list_sum + num
 
-print(list_sum)
+print('list_sum :',list_sum)
 
 # We've used for loops with lists, how about with strings? Remember strings are a sequence so when we iterate through 
 # them we will be accessing each item in that string.
@@ -61,7 +63,8 @@ list2 = [(2,4),(6,8),(10,12)]
 for tup in list2:
     print(tup)
 
-# Now with unpacking!
+# Now with Tuple unpacking!
+
 for (t1,t2) in list2:
     print(t1)
 

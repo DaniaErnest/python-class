@@ -4,7 +4,7 @@
 # Make a dictionary with {} and : to signify a key and a value
 my_dict = {'key1':'value1','key2':'value2'}
 
-# Call values by their key
+# print values by their key
 print(my_dict['key2'])
 
 # Its important to note that dictionaries are very flexible in the data types they can hold. For example:
@@ -59,7 +59,7 @@ d = {'key1':{'nestkey':{'subnestkey':'value'}}}
 
 # Keep calling the keys
 d['key1']['nestkey']['subnestkey']
-print(d)
+print('nested-dict :', d['key1']['nestkey']['subnestkey'])
 'value'
 # A few Dictionary Methods
 # There are a few methods we can call on a dictionary. Let's get a quick introduction to a few of them:
@@ -68,7 +68,7 @@ print(d)
 d = {'key1':1,'key2':2,'key3':3}
 # Method to return a list of all keys 
 key = d.keys()
-print(key)
+print('list keys : ', key)
 
 # dict_keys(['key1', 'key2', 'key3'])
 # Method to grab all values

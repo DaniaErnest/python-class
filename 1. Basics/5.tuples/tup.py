@@ -28,27 +28,27 @@ print(t)
 
 # Use indexing just like we did in lists
 print(t[0])
-# Slicing just like a list
-print(t[-1])
+# Slicing just like a list.. this [-1] print from back
+print('slice :',t[-1])
 
 # Basic Tuple Methods
 # Tuples have built-in methods, but not as many as lists do.
 #  Let's look at two of them:
 
-# Use .index to enter a value and return the index
+# Use .index to enter a value present in the tuple and return the index
 ind = t.index('one')
-print(ind)
+print('inde :',ind)
 
 
 # Use .count to count the number of times a value appears
 ty = t.count('one') #1
-print(ty)
+print('count :',ty)
 
 
 # Immutability
 # It can't be stressed enough that tuples are immutable. 
 # To drive that point home:
 
-t[0]= 'change'
-print(t)
+# t[0]= 'change'
+# print(t)
 
